@@ -1,0 +1,84 @@
+body {
+  --dark: #111;
+  --dark1: #222;
+  --dark2: #222;
+  --dark3: #444;
+  --light: #fff;
+  --light1: #eee;
+  --light2: #ccc;
+  --light3: #777;
+  --accent: #f6868b;
+  --link: #9898ff;
+  --link-visited: #be78ff;
+
+  color: var(--light1);
+}
+
+#main-nav {
+  background: var(--dark1);
+}
+
+#main-nav .navbar-toggle {
+  background: var(--dark3);
+  border: var(--light3);
+}
+
+#main-nav .navbar-toggle .icon-bar {
+  background: var(--light2);
+}
+
+#main-nav .navbar-collapse {
+  background: var(--dark1);
+}
+
+#main-nav .navbar-collapse .nav li a {
+  color: var(--light1);
+}
+
+#richtextpage #richtextpage-content {
+  background: var(--dark1);
+  color: var(--light1);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6 .h6 {
+  color: var(--accent);
+}
+
+#main-footer #contact .container {
+  background: var(--dark2);
+}
+
+.form-control {
+  background: var(--dark3);
+  color: var(--light1);
+}
+
+a {
+  color: var(--link) !important;
+}
+
+a:visited {
+  color: var(--link-visited) !important;
+}
+
+a:hover {
+  color: var(--accent) !important;
+}
+
+#main-footer #contact #schedule-call-left-column #set-up-discussion-footer a {
+  color: var(--light);
+}
+
+#main-footer #contact-sub {
+  background: var(--dark2);
+  color: var(--light1);
+}
+
+#main-footer #contact {
+  background: var(--dark);
+}
