@@ -71,7 +71,7 @@ a:hover {
 }
 
 #main-footer #contact #schedule-call-left-column #set-up-discussion-footer a {
-  color: var(--light);
+  color: var(--light) !important;
 }
 
 #main-footer #contact-sub {
