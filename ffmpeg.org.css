@@ -1,0 +1,95 @@
+body {
+  --dark: #181719;
+  --dark1: #1d2434;
+  --dark2: #242424;
+  --dark3: #282e3c;
+  --light: #f8f8fa;
+  --light1: #e5e6eb;
+  --light2: #c0c2ce;
+  --light3: #d2d4dc;
+  --accent: #52bf90;
+  --link: #9898ff;
+  --link-visited: #be78ff;
+
+  color: var(--light1);
+}
+
+::selection {
+  background: #52bf90dc;
+  color: var(--dark);
+}
+
+body {
+  background: var(--dark2);
+  color: var(--light1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent) !important;
+}
+
+.memberdecls td {
+  background: var(--dark3);
+  color: var(--light);
+}
+
+#titlearea {
+  background: var(--dark3);
+  color: var(--accent);
+}
+
+.memproto {
+  background: var(--dark1);
+  color: var(--light3);
+  text-shadow: none;
+}
+
+.memdoc {
+  background: var(--dark3);
+  color: var(--light);
+}
+
+address {
+  color: var(--accent);
+}
+
+div.header {
+  background: var(--dark3);
+  color: var(--accent);
+}
+
+#navrow1, #navrow2, .tablist {
+  background: var(--dark1);
+  color: var(--light);
+}
+
+.tablist li {
+  background: var(--dark1);
+  color: var(--light);
+}
+
+.tablist li.current a {
+  background: var(--accent);
+  color: var(--dark);
+}
+
+.tablist li a:hover {
+  background: var(--light3);
+  color: var(--dark1);
+}
+
+a {
+  text-shadow: none !important;
+}
+
+a, .tablist a {
+  color: var(--link);
+}
+
+a:visited, .tablist a:visited {
+  color: var(--link-visited);
+}
+
+a:hover, .tablist a:hover {
+  color: var(--accent);
+}
