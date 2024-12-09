@@ -2305,16 +2305,16 @@ footer.footer {
 .hljs-tag .hljs-attr,
 .hljs-template-variable,
 .hljs-variable {
-  color:teal
+  color:cyan
 }
 .hljs-doctag,
 .hljs-string {
-  color:#201
+  color:#f95
 }
 .hljs-section,
 .hljs-selector-id,
 .hljs-title {
-  color:#100;
+  color:#f66;
   font-weight:600
 }
 .hljs-subst {
@@ -2341,7 +2341,7 @@ footer.footer {
 }
 .hljs-built_in,
 .hljs-builtin-name {
-  color:#ff1620
+  color:#fc767c
 }
 .hljs-meta {
   color:var(--dark1);
