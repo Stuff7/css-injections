@@ -741,7 +741,7 @@ li > p:hover > a[id^="VUID-"], li > p > a[id^="VUID-"]:hover { visibility: visib
 
 li > p > a[id^="VUID-"].link { color: var(--light); text-decoration: none; }
 
-.paragraph em, .paragraph strong, .ulist strong {
+.paragraph em, .paragraph strong, .ulist strong, .tableblock tbody strong {
   color: aqua !important;
 }
 
@@ -751,6 +751,14 @@ li > p > a[id^="VUID-"].link { color: var(--light); text-decoration: none; }
 
 .content pre {
   background: #222 !important;
+}
+
+.tableblock tbody tr {
+  background: #222 !important;
+}
+
+.tableblock tbody p {
+  color: #fafafa !important;
 }
 
 /* TODO: not quite sure what these two do */
