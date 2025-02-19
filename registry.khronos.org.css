@@ -741,6 +741,18 @@ li > p:hover > a[id^="VUID-"], li > p > a[id^="VUID-"]:hover { visibility: visib
 
 li > p > a[id^="VUID-"].link { color: var(--light); text-decoration: none; }
 
+.paragraph em {
+  color: aqua !important;
+}
+
+.paragraph a {
+  color: lime !important;
+}
+
+.content pre {
+  background: #222 !important;
+}
+
 /* TODO: not quite sure what these two do */
 li > p > a[id^="VUID-"].link:hover { color: var(--light); }
 
