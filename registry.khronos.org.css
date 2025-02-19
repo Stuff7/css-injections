@@ -741,11 +741,11 @@ li > p:hover > a[id^="VUID-"], li > p > a[id^="VUID-"]:hover { visibility: visib
 
 li > p > a[id^="VUID-"].link { color: var(--light); text-decoration: none; }
 
-.paragraph em {
+.paragraph em, .paragraph strong, .ulist strong {
   color: aqua !important;
 }
 
-.paragraph a {
+.paragraph a, .ulist a {
   color: lime !important;
 }
 
