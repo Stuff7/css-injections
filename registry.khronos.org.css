@@ -741,11 +741,11 @@ li > p:hover > a[id^="VUID-"], li > p > a[id^="VUID-"]:hover { visibility: visib
 
 li > p > a[id^="VUID-"].link { color: var(--light); text-decoration: none; }
 
-.paragraph em, .paragraph strong, .ulist strong, .tableblock tbody strong {
+.paragraph em, .paragraph strong, .ulist strong, .tableblock tbody strong, strong {
   color: aqua !important;
 }
 
-.paragraph a, .ulist a {
+.paragraph a, .ulist a, a {
   color: lime !important;
 }
 
@@ -757,7 +757,7 @@ li > p > a[id^="VUID-"].link { color: var(--light); text-decoration: none; }
   background: #222 !important;
 }
 
-.tableblock tbody p {
+.tableblock tbody p, p {
   color: #fafafa !important;
 }
 
